@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -9,95 +9,132 @@
 <body>
     <header>
         <div>
-            <a href="index.html">Логотип</a>
+            <a href="index.html">
+            </a>
             <nav>
                 <ul>
-                    <li><a href="index.html">Главная</a></li>
-                    <li><a href="catalog.html">Каталог</a></li>
-                    <li><a href="contacts.html">Контакты</a></li>
-                    <li><a href="feedback.html">Обратная связь</a></li>
+                    <li><a  href="index.html" button type="button" class="btn btn-secondary" color: >Главная</button></a></li>
+                    <li><a  href="catalog.html" button type="button" class="btn btn-secondary">Каталог </button></a></li>
+                    <li><a  href="contacts.html" button type="button" class="btn btn-secondary">Контакты </button></a></li>
+                    <li><a  href="feedback.html" button type="button" class="btn btn-secondary">Обратная связь </button></a></li>
+                    <li><a  href="signup.html" button type="button" class="btn btn-secondary">Регистрация </button></a></li>
+                    <li><a  href="profile.html" button type="button" class="btn btn-secondary">Личный кабинет</button></a></li>
                 </ul>
             </nav>
         </div>
+
+
+        
     </header>
 
     <main>
         <section>
             <div>
-                <h1>Добро пожаловать!</h1>
-                <p>Лучшие предложения и высокое качество — всё для вашего комфорта.</p>
-                <a href="catalog.html">Перейти в каталог</a>
+                <h1>Добро пожаловать в наше Рекламное агенство!</h1>
+                <p>Высокое качество и быстрая работа — всё для вашего продвижения бренда.</p>
+                <a href="catalog.html" class="btn btn-outline-dark" style="margin: 0px;" >Перейти в каталог</a>
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Почему выбирают нас</h2>
+            <section>
                 <div>
+                    <h2>Почему выбирают нас?</h2>
                     <div>
-                        <div></div>
-                        <h3>Качество</h3>
-                        <p>Гарантируем отличный результат и проверенные материалы.</p>
+                        <div>
+                            <div></div>
+                            <h3>Качество</h3>
+                            <p>Гарантируем отличный результат и проверенные материалы.</p>
+                        </div>
+                        <div>
+                            <div></div>
+                            <h3>Быстрота</h3>
+                            <p>Оперативная работа и соблюдение сроков.</p>
+                        </div>
+                        <div>
+                            <div></div>
+                            <h3>Доступно</h3>
+                            <p>Цены, которые приятно удивят, без скрытых комиссий.</p>
+                        </div>
+                        <div>
+                            <div></div>
+                            <h3>Поддержка</h3>
+                            <p>Всегда на связи и помогаем с любым вопросом.</p>
+                        </div>
                     </div>
-                    <div>
-                        <div></div>
-                        <h3>Быстрота</h3>
-                        <p>Оперативная работа и соблюдение сроков.</p>
-                    </div>
-                    <div>
-                        <div></div>
-                        <h3>Доступно</h3>
-                        <p>Цены, которые приятно удивят, без скрытых комиссий.</p>
-                    </div>
-                    <div>
-                        <div></div>
-                        <h3>Поддержка</h3>
-                        <p>Всегда на связи и помогаем с любым вопросом.</p>
-                    </div>
+                </div>
+            </section>
+
+            <div class="slider-container">
+        <h2>Слайдер изображений</h2>
+        <div class="slider">
+            <button class="slider-btn prev-btn" id="prevBtn">❮</button>
+            <div class="slider-image-wrapper">
+                <img src="" alt="Изображение 1" id="sliderImage">
+            </div>
+            <button class="slider-btn next-btn" id="nextBtn">❯</button>
+        </div>
+        <p class="image-counter" id="imageCounter">1 / 5</p>
+    </div>
+
+    <script src="slider.js"></script>
+
+    
+
+        </section>
+
+        <section class="section container">
+            <h1> Наш мерч </h1>
+            <div class="cards">
+            <div class="card"><img src=""><h3>Стакан </h3><p> Цена: 1000 ₽.</p><p></p><a href="areenda.html" class="btn btn-outline-dark" style="margin: 50px;">Перейти</a></div>
+            <div class="card"><img src=""><h3>Ручка</h3><p>Цена: 1500 ₽.</p><p></p><a href="areenda.html" class="btn btn-outline-dark" style="margin: 50px;">Перейти</a></div>
+            <div class="card"><img src=""><h3>Футболка</h3><p>Цена: 500 ₽.</p><p></p><a href="areenda.html" class="btn btn-outline-dark" style="margin: 50px;">Перейти</a></div>
+        </section>
+
+        <section class="gallery">
+            <div class="container">
+                <h2 class="section-title">Наши работы</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item" > <img src="" alt=""></div> 
+                    <div class="gallery-item"> <img src="" alt=""></div>
+                    <div class="gallery-item"> <img src="" alt=""></div>
+                    <div class="gallery-item"><img src="" alt=""></div>
+                    <div class="gallery-item"><img src="" alt=""></div>
+                    <div class="gallery-item"><img src="" alt=""></div>
+                    <div class="gallery-item"><img src="" alt=""></div>
+                    <div class="gallery-item"><img src="" alt=""></div>
                 </div>
             </div>
         </section>
 
-        <section>
-            <div>
-                <h2>Популярное в этом месяце</h2>
-                <div>
-                    <div>
-                        <div></div>
-                        <div>
-                            <h3>Название услуги/товара</h3>
-                            <p>Краткое описание — поменяйте текст под свою тему.</p>
-                            <div>от 1000 ₽</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div></div>
-                        <div>
-                            <h3>Другое предложение</h3>
-                            <p>Измените контент, фото и цену в соответствии с темой.</p>
-                            <div>1500 ₽</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div></div>
-                        <div>
-                            <h3>Специальный курс</h3>
-                            <p>Успейте забронировать место по акции.</p>
-                            <div>бесплатно</div>
-                        </div>
-                    </div>
-                    <div>
-                        <div></div>
-                        <div>
-                            <h3>Набор опций</h3>
-                            <p>Комбо выгоднее, чем по отдельности.</p>
-                            <div>2500 ₽</div>
-                        </div>
-                    </div>
+        <section class="add-review">
+            <h2>Оставить отзыв</h2>
+            <form id="reviewForm">
+                <input type="text" id="name" placeholder="Ваше имя" required>
+                <textarea id="comment" placeholder="Ваш отзыв" rows="4" required></textarea>
+                <div class="rating">
+                    <label>Оценка: </label>
+                    <select id="rating" required>
+                        <option value="5">★★★★★ Отлично</option>
+                        <option value="4">★★★★ Хорошо</option>
+                        <option value="3">★★★ Нормально</option>
+                        <option value="2">★★ Плохо</option>
+                        <option value="1">★ Очень плохо</option>
+                    </select>
                 </div>
-            </div>
+                <button type="submit">Отправить</button>
+            </form>
         </section>
+
+        </section>
+        
+
     </main>
+
+    
+
+
+
+
 
     <footer>
         <div>
@@ -107,18 +144,26 @@
             </div>
             <div>
                 <h4>Контакты</h4>
-                <p>Email: example@site.ru</p>
-                <p>Телефон: +7 (123) 456-78-90</p>
-                <p>Адрес: ул. Тверская, Москва</p>
+                <p>Email: neoadver@mail.ru</p>
+                <p>Телефон: +7 (999) 999 99 99 </p>
+                <p>Адрес: пр.Ленина 100, Северск</p>
             </div>
             <div>
                 <h4>Следите за нами</h4>
-                <p>Соцсети: VK, Max, Rutube</p>
             </div>
         </div>
         <div>
             <p>&copy; 2026 Все права защищены. Учебный проект.</p>
         </div>
+
+        <div class="footer-social">
+    <h4>Мы в соцсетях</h4>
+    <div class="social-grid">
+        <a href="">VK</a>
+        <a href="">Telegram</a>
+    </div>
+</div>
+
     </footer>
 </body>
 </html>
